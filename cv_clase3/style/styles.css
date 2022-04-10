@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+ }
+
+body{
+    background-color: antiquewhite;
+}
+
+ /* Incio de mi CSS */
+
+/* ---------------- CAMBIOS GENERALES -------------------*/
+.titulosIniciales{
+    color: rgba(49, 49, 148, 0.863);
+    text-align: center;
+    padding: 10px;
+    font-weight: lighter;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* ---------------- CAMBIOS INDEX -------------------*/
+#imagenCV{
+    text-align: center;
+    background-color: antiquewhite;
+    box-sizing: border-box;
+}
+
+#imagenCV img{
+    height: 500px;
+    width: 700px;
+}
+
+.datosPersonales{
+    padding: 10px;
+    margin: 10px;
+    font-size: medium;
+    font-style: oblique;
+    text-decoration: solid;
+    text-align: center;
+}
+
+.clickForm{
+    color: red;
+    font-size: 20px;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+/* ---------------- CAMBIOS PAGINA FORMULARIO -------------------*/
