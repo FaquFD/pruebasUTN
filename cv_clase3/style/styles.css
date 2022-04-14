@@ -1,42 +1,69 @@
+/*
+font-family: 'Inter', sans-serif;
+font-family: 'Playfair Display', serif;
+*/
+
 * {
     margin: 0;
     padding: 0;
  }
 
-body{
-    background-color: antiquewhite;
+ a{
+    text-decoration: none;
 }
-
- /* Incio de mi CSS */
-
-/* ---------------- CAMBIOS GENERALES -------------------*/
+/* ---------------------------------------------------------------------- CAMBIOS GENERALES ---------------------------------------------------------------------------------------*/
 .titulosIniciales{
-    color: rgba(49, 49, 148, 0.863);
-    text-align: center;
     padding: 10px;
-    font-weight: lighter;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Inter', sans-serif;
+    text-align: center;
+    color: aliceblue;
+    /*Gradient*/
+    background: #75a4b1;
+    background: linear-gradient(90deg,#75a4b1 10%, #d7d7d7 70%);
+    background: -webkit-linear-gradient(90deg,#75a4b1 10%, #d7d7d7 70%);
+    background: -moz-linear-gradient(90deg,#75a4b1 10%, #d7d7d7 70%);
 }
 
-/* ---------------- CAMBIOS INDEX -------------------*/
-#imagenCV{
+#subtituloRedes{
+    font-size: 30px;
+    padding-top: 10px;
     text-align: center;
-    background-color: antiquewhite;
+    text-decoration:overline;
+}
+
+/* ----------------------------------------------------------------------- CAMBIOS INDEX -----------------------------------------------------------------------------------------*/
+#cajaImagen{
+    text-align: center;
+    margin-top: 20px;
     box-sizing: border-box;
 }
-
-#imagenCV img{
+#cajaImagen img{
     height: 500px;
     width: 700px;
+    box-shadow: -5px 2px 5px 1px rgb(158, 157, 157);
 }
+
 
 .datosPersonales{
     padding: 10px;
-    margin: 10px;
-    font-size: medium;
-    font-style: oblique;
-    text-decoration: solid;
+    margin: 20px;
+    font-family: 'Playfair Display', serif;
     text-align: center;
+}
+
+.listaRedes{
+    text-align: center;
+}
+
+.listaRedes li{
+    display: inline-block;
+}
+
+.iconoSocial{
+    margin-top: 10px;
+    margin-bottom: 30px;
+    font-size: 50px;
+    color: rgb(37, 37, 90);
 }
 
 .clickForm{
@@ -44,9 +71,10 @@ body{
     font-size: 20px;
 }
 
-a{
-    text-decoration: none;
-}
-
 
 /* ---------------- CAMBIOS PAGINA FORMULARIO -------------------*/
+.cajaFormulario{
+    margin: 30px 30px;
+    padding: 30px;
+    border: 1px solid black;
+}
