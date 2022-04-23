@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario - CV</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Playfair+Display:ital@1&display=swap" rel="stylesheet">
+    
+    <!------------------ Mi CSS ----------------------->
+    <link rel="stylesheet" href="../style/styles.css">
+</head>
+
+<body>
+    <header>
+    <h1 class="titulosIniciales">Formulario de contacto</h1>
+    </header>
+
+
+    <section>
+    <div class="cajaFormulario">
+        <form action="formulario.php" method="post" required>
+            <label for="">Nombre: </label>
+            <input type="text" value="" name="nombre" required><br><br>
+            <label for="">Apellido: </label>
+            <input type="text" value="" name="apellido"><br><br>
+            <label for="">Mail de contacto: </label>
+            <input type="text" value="" name="correo"><br><br>
+            <label for="">Tipo de consulta: </label>
+            <select name="tipoConsultas" id=""><br><br>
+                <option value="">Traumatologia</option>
+                <option value="">Fisioterapia</option>
+                <option value="">Quiropraxia</option>
+                <option value="">Acupuntura</option>
+            </select><br><br>
+            <label for="">Dejá tu consulta aquí: </label><br>
+            <textarea name="consulta" id="" cols="30" rows="10"></textarea><br><br>
+    
+
+            <input type="submit" value="Enviar" name="Enviar">
+            <input type="reset" value="Borrar" name="Borrar"><br><br>
+        </form>
+    </div>
+
+    <a href="../index.html">Volver al inicio</a>
+    </section>
+
+    <footer>
+
+    </footer>
+</body>
+</html>
