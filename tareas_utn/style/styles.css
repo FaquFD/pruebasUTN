@@ -80,3 +80,61 @@ font-family: 'Playfair Display', serif;
 }
 
 
+/*---------------------------------------------------------------------- CAMBIOS TAREA FLEX-BOX----------------------------------------------------------------*/
+
+.contenedorUno{
+    background-color: white;
+    border: solid black;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.contenedorDos{
+    background-color: white;
+    border: solid blue;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+}
+
+.contenedorTres{
+    background-color: white;
+    border: solid green;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.item{
+    background-color: rgb(56, 118, 122);
+    width: 150px;
+    height: 150px;
+    font-size: 30px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.itemDos{
+    background-color: rgb(39, 153, 5);
+    width: 150px;
+    height: 150px;
+    font-size: 30px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.itemTres{
+    background-color: rgb(91, 101, 247);
+    width: 150px;
+    height: 150px;
+    font-size: 30px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
