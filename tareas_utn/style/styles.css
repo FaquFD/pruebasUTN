@@ -8,6 +8,13 @@ font-family: 'Playfair Display', serif;
     padding: 0;
  }
 
+
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
  a{
     text-decoration: none;
 }
@@ -67,7 +74,7 @@ font-family: 'Playfair Display', serif;
 }
 
 .clickForm{
-    color: red;
+    color: blue;
     font-size: 20px;
 }
 
@@ -137,4 +144,107 @@ font-family: 'Playfair Display', serif;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+
+
+/*------------------------------------------- TAREA MEDIA QUERIES -------------------------*/
+.body-media {
+	color: #000;
+	background: #332F29;
+	font-size:100%;
+}
+#contenedor-media {
+	width: 800px;
+	background: #8FA68E;
+	margin-right:auto;
+	margin-left:auto;
+	overflow: hidden;
+}
+.nav-media {
+	background: #CC3910;
+	float: left;
+	width: 160px;
+}
+.ul-media {
+	list-style-type:none;
+}
+.a-media {
+	color:#F1F2C0;
+	text-decoration: none;
+}
+.section-media {
+	background: #F1F2C0;
+	float: left;
+	margin: 0 0 0 25px;
+	width: 400px;
+}
+.aside-media {
+	background: #CCC59E;
+	float: right;
+	width: 190px;
+}
+
+
+@media screen and (min-width: 230px) and (max-width: 800px){
+    .body-media{
+        padding: 0;
+        margin: 0;
+        background: #6fbb9e;
+    }
+
+    #contenedor-media{
+        background: grey;
+        width: 100%;
+    }
+
+    .nav-media{
+        background: rgb(240, 243, 72);
+        float: none;
+        width: 100%;
+    }
+
+    .nav-media .ul-media{
+        margin: 0;
+    }
+
+    .nav-media .ul-media li a{
+        padding: 0.5em;
+        display: block;
+        color: blue;
+        font-size: 20px;
+    }
+
+    .section-media{
+        border-top: solid rgb(255, 0, 0) 0.2em;
+        float: none;
+        padding: 0.6em;
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .aside-media{
+        border-top: solid black 0.2em;
+        float: none;
+        padding: 0.6em;
+        width: 100%;
+        margin-left: 0;
+    }
+
+}
+
+
+
+
+/*----------------------------------------------- TAREA BOOTSTRAP -------------------------------------------------------------*/
+.carousel-inner{
+    max-height: 40rem;
+}
+
+footer{
+    text-align: center;
+    background-color:#75a4b1;
+    color: white;
+    font-size: 1rem;
+    margin-top: auto;
 }
