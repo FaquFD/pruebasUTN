@@ -248,3 +248,28 @@ footer{
     font-size: 1rem;
     margin-top: auto;
 }
+
+
+/*------------------------------------------- TAREA JS DOS --------------------------------------------------------------*/
+.contenedorCuadrados{
+    display: flex;
+}
+
+.cuadrado{
+    height: 250px;
+    width: 250px;
+    cursor: pointer;
+}
+
+.amarillo{
+    background-color: yellow;
+}
+
+.azul{
+    background-color: blue;
+}
+
+.negro{
+    background-color: black;
+}
+
